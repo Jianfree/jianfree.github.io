@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://jianfree.github.io/blog/2014/04/12/helloworld/</loc>
+        <loc>http://Jianfree.github.io/blog/2014/04/12/helloworld/</loc>
+        <lastmod>2014-04-12T23:47:24+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://Jianfree.github.io/blog/about/aboutme.html</loc>
         <lastmod>2014-04-12T23:34:47+08:00</lastmod>
     </url>
     <url>
-        <loc>http://jianfree.github.io/blog/about/aboutme.html</loc>
-        <lastmod>2014-04-12T23:34:47+08:00</lastmod>
+        <loc>http://Jianfree.github.io/blog/archives/</loc>
+        <lastmod>2014-04-12T23:47:24+08:00</lastmod>
     </url>
     <url>
-        <loc>http://jianfree.github.io/blog/archives/</loc>
-        <lastmod>2014-04-12T23:34:47+08:00</lastmod>
+        <loc>http://Jianfree.github.io/</loc>
+        <lastmod>2014-04-12T23:47:24+08:00</lastmod>
     </url>
     <url>
-        <loc>http://jianfree.github.io/</loc>
-        <lastmod>2014-04-12T23:34:47+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://jianfree.github.io/robots.txt</loc>
+        <loc>http://Jianfree.github.io/robots.txt</loc>
         <lastmod>2014-04-12T23:34:23+08:00</lastmod>
     </url>
 </urlset>

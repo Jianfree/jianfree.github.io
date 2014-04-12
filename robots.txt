@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://jianfree.github.io/sitemap.xml 
+Sitemap: http://Jianfree.github.io/sitemap.xml 
