@@ -4,13 +4,31 @@
   <title><![CDATA[每天改变一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-12T21:55:10+08:00</updated>
+  <updated>2014-04-12T23:43:09+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
-    <name><![CDATA[jianfree]]></name>
+    <name><![CDATA[Jianfree]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[helloworld]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/12/helloworld/"/>
+    <updated>2014-04-12T22:49:46+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/12/helloworld</id>
+    <content type="html"><![CDATA[<h2>helloworld</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+]]></content>
+  </entry>
   
 </feed>
