@@ -1,0 +1,2225 @@
+## Generating Site with Jekyll
+[33munchanged[0m sass/screen.scss
+Configuration from /Users/henry/Documents/jianfree-blog/blog/_config.yml
+Building site: source -> public
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+150
+&&&&&&&&&end
+&&&&&&&&&star
+blog/categories/computer/index.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Category: Computer</h1>
+    
+  </header>
+  
+  <div id="blog-archives" class="category">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/04/12/helloworld/">hello world</a></h1>
+<time datetime="2014-04-12T22:49:46+08:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/computer/'>computer</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+Jianfree
+&&&&&&&&&end
+&&&&&&&&&star
+hello world
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>{{ page.title }}</h2>
+
+<p>我的第一篇文章</p>
+<p>{{ page.date | date_to_string }}</p>
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>{{ page.title }}</h2>
+
+<p>我的第一篇文章</p>
+<p>{{ page.date | date_to_string }}</p>
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>{{ page.title }}</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>{{ page.date | date_to_string }}</p>
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+Time
+2014-04-12 22:49:46 +0800
+***
+&&&&&&&&&star
+hello world
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+<a class='category' href='/blog/categories/computer/'>computer</a>
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Hello World</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jianfree</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/computer/'>computer</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+
+  
+     <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1364037836073208" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+  
+</div>
+
+
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/04/13/test/" title="Next Post: test">test &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+&&&&&&&&&end
+&&&&&&&&&star
+hello world
+
+
+
+
+我的第一篇文章
+
+
+12 Apr 2014
+
+&&&&&&&&&end
+&&&&&&&&&star
+hello world 我的第一篇文章 12 Apr 2014 
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/blog/2014/04/12/helloworld/
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Hello World</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jianfree</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/computer/'>computer</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+
+  
+     <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1364037836073208" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+  
+</div>
+
+
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/04/13/test/" title="Next Post: test">test &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+test
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Test</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>goodd</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jianfree</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+
+  
+     <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1364037836073208" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+  
+</div>
+
+
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/12/helloworld/" title="Previous Post: hello world">&laquo; hello world</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+&&&&&&&&&end
+&&&&&&&&&star
+goodd
+&&&&&&&&&end
+&&&&&&&&&star
+goodd
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/blog/2014/04/13/test/
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Test</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>goodd</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jianfree</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+
+  
+     <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1364037836073208" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+  
+</div>
+
+
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/12/helloworld/" title="Previous Post: hello world">&laquo; hello world</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+404 Error
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">404 Error</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time></p>
+  </header>
+  
+  <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">404 Error</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time></p>
+  </header>
+  
+  <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+
+
+  
+  
+    404 Error
+    
+
+
+
+
+
+
+
+
+  
+
+
+Apr 13th, 2014
+  
+  
+  
+
+
+  
+
+
+
+
+
+  
+    
+  Categories
+  
+    computer (1)
+
+  
+
+
+  Recent Posts
+  
+    
+      
+        test
+      
+    
+      
+        hello world
+      
+    
+  
+
+
+
+
+
+
+  
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+ 404 Error Apr 13th, 2014 Categories computer (1) Recent Posts test hello world 
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/404.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">404 Error</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time></p>
+  </header>
+  
+  <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+Jianfree
+&&&&&&&&&end
+&&&&&&&&&star
+test
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+&&&&&&&&&end
+&&&&&&&&&star
+hello world
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+&&&&&&&&&end
+&&&&&&&&&star
+About Me
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">About Me</h1>
+    
+  </header>
+  
+  <p>
+	以编程为生，好音乐，喜电影。
+
+</p>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">About Me</h1>
+    
+  </header>
+  
+  <p>
+	以编程为生，好音乐，喜电影。
+
+</p>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+
+
+  
+  
+    About Me
+    
+  
+  
+  
+	以编程为生，好音乐，喜电影。
+
+
+
+  
+
+
+
+
+
+  
+    
+  Categories
+  
+    computer (1)
+
+  
+
+
+  Recent Posts
+  
+    
+      
+        test
+      
+    
+      
+        hello world
+      
+    
+  
+
+
+
+
+
+
+  
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+ About Me 以编程为生，好音乐，喜电影。 Categories computer (1) Recent Posts test hello world 
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/blog/about/index.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">About Me</h1>
+    
+  </header>
+  
+  <p>
+	以编程为生，好音乐，喜电影。
+
+</p>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>
+&&&&&&&&&end
+&&&&&&&&&star
+computer
+&&&&&&&&&end
+&&&&&&&&&star
+Blog Archive
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Blog Archive</h1>
+    
+  </header>
+  
+  <div id="blog-archives">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/04/13/test/">test</a></h1>
+<time datetime="2014-04-13T11:49:35+08:00" pubdate><span class='month'>Apr</span> <span class='day'>13</span> <span class='year'>2014</span></time>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2014/04/12/helloworld/">hello world</a></h1>
+<time datetime="2014-04-12T22:49:46+08:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/computer/'>computer</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Blog Archive</h1>
+    
+  </header>
+  
+  <div id="blog-archives">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/04/13/test/">test</a></h1>
+<time datetime="2014-04-13T11:49:35+08:00" pubdate><span class='month'>Apr</span> <span class='day'>13</span> <span class='year'>2014</span></time>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2014/04/12/helloworld/">hello world</a></h1>
+<time datetime="2014-04-12T22:49:46+08:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/computer/'>computer</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+
+
+  
+  
+    Blog Archive
+    
+  
+  
+  
+
+
+
+  
+  2014
+
+
+  
+test
+Apr 13 2014
+
+
+
+
+
+
+
+  
+hello world
+Apr 12 2014
+
+
+  posted in computer
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+    
+  Categories
+  
+    computer (1)
+
+  
+
+
+  Recent Posts
+  
+    
+      
+        test
+      
+    
+      
+        hello world
+      
+    
+  
+
+
+
+
+
+
+  
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+ Blog Archive 2014 test
+Apr 13 2014 hello world
+Apr 12 2014 posted in computer Categories computer (1) Recent Posts test hello world 
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/blog/archives/index.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Blog Archive</h1>
+    
+  </header>
+  
+  <div id="blog-archives">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/04/13/test/">test</a></h1>
+<time datetime="2014-04-13T11:49:35+08:00" pubdate><span class='month'>Apr</span> <span class='day'>13</span> <span class='year'>2014</span></time>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2014/04/12/helloworld/">hello world</a></h1>
+<time datetime="2014-04-12T22:49:46+08:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/computer/'>computer</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+test
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 11:49:35 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+&&&&&&&&&end
+&&&&&&&&&star
+hello world
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-12 22:49:46 +0800
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+&&&&&&&&&end
+&&&&&&&&&star
+<h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+<div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/13/test/">Test</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>goodd</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/12/helloworld/">Hello World</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+&&&&&&&&&end
+&&&&&&&&&star
+<p>goodd</p>
+&&&&&&&&&end
+&&&&&&&&&star
+goodd
+&&&&&&&&&end
+&&&&&&&&&star
+goodd
+150
+&&&&&&&&&end
+&&&&&&&&&star
+/index.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/13/test/">Test</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-13T11:49:35+08:00" pubdate data-updated="true">Apr 13<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>goodd</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/12/helloworld/">Hello World</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>hello world</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p>12 Apr 2014</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+/
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+&&&&&&&&&end
+&&&&&&&&&star
+Category: computer
+150
+&&&&&&&&&end
+&&&&&&&&&star
+blog/categories/computer/index.html
+index.html
+&&&&&&&&&end
+&&&&&&&&&star
+http://jianfree.github.io
+&&&&&&&&&end
+&&&&&&&&&star
+<div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Category: Computer</h1>
+    
+  </header>
+  
+  <div id="blog-archives" class="category">
+
+
+
+  
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/04/12/helloworld/">hello world</a></h1>
+<time datetime="2014-04-12T22:49:46+08:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/computer/'>computer</a></span>
+</footer>
+
+
+</article>
+
+</div>
+
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/computer/'>computer (1)</a></li>
+
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/13/test/">test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/12/helloworld/">hello world</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+&&&&&&&&&end
+&&&&&&&&&star
+2014-04-13 14:05:32 +0800
+%Y
+&&&&&&&&&end
+&&&&&&&&&star
+
+&&&&&&&&&end
+NilClass
+
+***
+Liquid Exception: undefined method `strftime' for nil:NilClass in atom.xml
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/filters.rb:40:in `date_to_string'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/context.rb:61:in `invoke'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/variable.rb:43:in `block in render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/variable.rb:38:in `each'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/variable.rb:38:in `inject'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/variable.rb:38:in `render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/block.rb:94:in `block in render_all'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/block.rb:92:in `collect'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/block.rb:92:in `render_all'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/block.rb:82:in `render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/template.rb:124:in `render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/template.rb:132:in `render!'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/convertible.rb:79:in `do_layout'
+/Users/henry/Documents/jianfree-blog/blog/plugins/post_filters.rb:167:in `do_layout'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/page.rb:100:in `render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/site.rb:204:in `block in render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/site.rb:203:in `each'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/site.rb:203:in `render'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/site.rb:41:in `process'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/bin/jekyll:264:in `<top (required)>'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/bin/jekyll:19:in `load'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/bin/jekyll:19:in `<main>'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/henry/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'

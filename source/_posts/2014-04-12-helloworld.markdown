@@ -3,7 +3,7 @@ layout: post
 title: "hello world"
 date: 2014-04-12 22:49:46 +0800
 comments: true
-categories: 
+categories: other
 ---
 
 <h2>{{ page.title }}</h2>
