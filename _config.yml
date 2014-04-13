@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://Jianfree.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://jianfree.github.io
+title: 每天改变一点点
+subtitle: 当我离开时，不带走任何东西，只带走一个优秀的自己.
+author: Jianfree
 simple_search: https://www.google.com/search
 description:
 
