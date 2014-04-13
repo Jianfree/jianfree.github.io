@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | 每天改变一点点]]></title>
+  <link href="http://jianfree.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://jianfree.github.io/"/>
+  <updated>2014-04-13T15:43:03+08:00</updated>
+  <id>http://jianfree.github.io/</id>
+  <author>
+    <name><![CDATA[Jianfree]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[用Octopress在github上面搭建博客]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/13/yong-octopresszai-githubshang-mian-da-jian-bo-ke/"/>
+    <updated>2014-04-13T14:24:12+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/13/yong-octopresszai-githubshang-mian-da-jian-bo-ke</id>
+    <content type="html"><![CDATA[<p>最近突发奇想，要来弄个博客，由于在github上面注册了账号，Pages功能可以托管静态网页，故选择了在这上面搭建一个blog。我选择了基于Jekyll的Octopress做为搭建程序，虽说Octopress官网有详细的教程，但是搭建的过程中还是遇到了很多问题。</p>
+
+<h3>Octopress 设置</h3>
+
+<p>根据官网的设置说明 <a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a> 一步一步的操作,当执行
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure></notextile></div>
+这步操作的时候，出现错误。最后发现是自己在前面 <strong>create repository</strong>的时候,勾选了
+<img src="/images/blog/20140413githup.png"><br/>
+导致发布不成功。</p>
+
+<!-- more -->
+
+
+<h3>个性化设置</h3>
+
+<h4>导航栏添加关于栏</h4>
+
+<p>添加一个About me导航栏</p>
+
+<h4>自定义404错误页</h4>
+
+<p>添加了寻人界面</p>
+
+<h4>添加评论与分享</h4>
+
+<p>分享我用的是<strong>JiaThis</strong>,评论我用的是友言，在本地测试的时候，发现页面根本就不会显示评论框，还以为是我代码更改的有问题，用<strong>firebug</strong>调试发现，代码添加的没问题，在本地不会显示，提交到github就正常了。</p>
+
+<h4>设置Categories</h4>
+
+<p>新建一篇文章后，如果我在头部categories的属性里面添加了我的分类，rake generate的时候，死活不成功，程序报错。提示这样的信息
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>Building site: source &ndash;> public
+</span><span class='line'>Liquid Exception: undefined method &lt;code>strftime' for nil:NilClass in atom.xml
+</span><span class='line'>/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-0.12.0/lib/jekyll/filters.rb:34:in&lt;/code>date_to_string'
+</span><span class='line'>/Users/henry/.rvm/gems/ruby-1.9.3-p392/gems/liquid-2.3.0/lib/liquid/context.rb:58:in `invoke'&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p></span></code></pre></td></tr></table></div></figure></notextile></div>
+如果不添加自己的分类，则不会有错误。最后把jekyll-0.12.0/lib/jekyll/filters.rb 代码33行附近的
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>filters.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;def date_to_string(date)</span>
+</span><span class='line'><span class="sr">  date.strftime(&quot;%d %b %Y&quot;)</span>
+</span><span class='line'><span class="sr">end</span>
+</span><span class='line'><span class="sr">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;</span><span class="sr">/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+改为
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>filters.rb  </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;def date_to_string(date)</span>
+</span><span class='line'><span class="sr">  if date==nil</span>
+</span><span class='line'><span class="sr">    return </span>
+</span><span class='line'><span class="sr">  end</span>
+</span><span class='line'><span class="sr">  date.strftime(&quot;%d %b %Y&quot;)</span>
+</span><span class='line'><span class="sr">end</span>
+</span><span class='line'><span class="sr">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;</span><span class="sr">/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+就能正常的编译成功了。但是具体是什么导致这样的情况，没有仔细的去研究。</p>
+
+<p><strong>搭博客不易，写博客不易，且行且珍惜。</strong></p>
+]]></content>
+  </entry>
+  
+</feed>

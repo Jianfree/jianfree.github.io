@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: other | 每天改变一点点]]></title>
+  <link href="http://jianfree.github.io/blog/categories/other/atom.xml" rel="self"/>
+  <link href="http://jianfree.github.io/"/>
+  <updated>2014-04-13T15:43:03+08:00</updated>
+  <id>http://jianfree.github.io/</id>
+  <author>
+    <name><![CDATA[Jianfree]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/12/helloworld/"/>
+    <updated>2014-04-12T22:49:46+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/12/helloworld</id>
+    <content type="html"><![CDATA[<h2>Category: other</h2>
+
+
+
+
+<p>我的第一篇文章</p>
+
+
+<p></p>
+
+]]></content>
+  </entry>
+  
+</feed>
