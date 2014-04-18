@@ -4,7 +4,7 @@
   <title><![CDATA[Category: diary | 每天进步一点点]]></title>
   <link href="http://jianfree.github.io/blog/categories/diary/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-18T02:21:03+08:00</updated>
+  <updated>2014-04-19T07:49:12+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140418日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/19/20140418ri-ji/"/>
+    <updated>2014-04-19T07:34:04+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/19/20140418ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气雨星期五</h4>
+
+<h4>正文</h4>
+
+<p>这几天，断断续续的下着雨。</p>
+
+<p>小米移动电源坏掉了，指示灯不亮了。中午去小米之家维修，服务态度超好，妹子检查了下，直接就给我换了个新的。</p>
+
+<p>晚上下班的时候，没有下雨，地上是干的，就跑步了。保持每周跑步2次的节奏。</p>
+
+<p>晚上帮有个朋友写了个程序处理实验数据。不管是工作，学习还是生活，如果会点编程，效率会得到极大的提高，深深的觉得，要是人人都会一点编程，世界将变成美好人间。</p>
+
+<p>晚上10点多的时候，本来说小睡一会，万万没想到啊，睡了就又不想起了。这一次又被自己的懒惰打败了，惭愧，惭愧。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140417日记]]></title>
@@ -101,23 +122,6 @@
 <p>我自己练洞箫也有很长时间了，感觉始终吹得不太好。难道是我没这个天赋吗？有点想去请个老师教教了。</p>
 
 <p>现在要到2点了。希望明天又是美好的不虚度光阴的一天。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20140413日记]]></title>
-    <link href="http://jianfree.github.io/blog/2014/04/14/20140413ri-ji/"/>
-    <updated>2014-04-14T01:12:47+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/04/14/20140413ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气阴转小雨星期日</h4>
-
-<h4>正文</h4>
-
-<p>今天周末，木有上班，8点起床，一直捣鼓这个博客程序，文章头部<strong>categories</strong>属性，不能填分类这个问题一直弄到中午12点多搞定，网上貌似也没有人碰到相应的问题，最后改了一个<strong>ruby</strong>文件才解决掉，暂时没有发现什么副作用。
-晚上学习了《赖世雄美语音标》p1-30的内容。也在<strong>coursera</strong>上面看了会
-<a href="https://class.coursera.org/musicianship-001">Develping Your Musicianship</a> Lession2的课程，绝大多数的音乐知识都不懂，权当练英语听力。睡觉之前还看了几页有关记忆的东西。</p>
-
-<p>今天把QQ空间关掉了，以后少刷微博，多学习。 不求行动有回报，但求梦想无愧心。</p>
 ]]></content>
   </entry>
   
