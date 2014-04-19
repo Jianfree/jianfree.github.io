@@ -51,6 +51,16 @@ Liquid Exception: undefined method `strftime' for nil:NilClass in atom.xml
     end
 {% endcodeblock %}
 就能正常的编译成功了。但是具体是什么导致这样的情况，没有仔细的去研究。 
+####常用命令
+{% codeblock lang:bash %}
+rake new_post['title']
+rake generate
+rake deploy
+git add .
+git commit -m 'you messsage'
+git push origin source 
+{%  endcodeblock %}
+
 
 **搭博客不易，写博客不易，且行且珍惜。**
 
