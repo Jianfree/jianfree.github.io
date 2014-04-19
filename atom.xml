@@ -4,7 +4,7 @@
   <title><![CDATA[每天进步一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-19T07:49:12+08:00</updated>
+  <updated>2014-04-19T08:00:27+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -223,6 +223,23 @@
 
 
 <p>就能正常的编译成功了。但是具体是什么导致这样的情况，没有仔细的去研究。</p>
+
+<h4>常用命令</h4>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span>
+</span><span class='line'>rake generate
+</span><span class='line'>rake deploy
+</span><span class='line'>git add .
+</span><span class='line'>git commit -m <span class="s1">&#39;you messsage&#39;</span>
+</span><span class='line'>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p><strong>搭博客不易，写博客不易，且行且珍惜。</strong></p>
 ]]></content>
