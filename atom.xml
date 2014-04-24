@@ -4,7 +4,7 @@
   <title><![CDATA[每天进步一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-24T02:00:34+08:00</updated>
+  <updated>2014-04-25T01:37:36+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140424日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/25/20140424ri-ji/"/>
+    <updated>2014-04-25T01:27:57+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/25/20140424ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气阴有雨星期四</h4>
+
+<h4>正文</h4>
+
+<p>下班的时候下起了毛毛细雨。但是没有带伞。</p>
+
+<p>在<a href="https://www.grjsq.me/">greenvpn</a>上面花了258块钱买了2年期的VPN. fuck G-F-W.</p>
+
+<p>看了点英语，学了点SCIP，把mit-scheme环境安装好了。</p>
+
+<p>这周周末要去上海。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140423日记]]></title>
