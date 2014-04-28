@@ -4,7 +4,7 @@
   <title><![CDATA[Category: diary | 每天进步一点点]]></title>
   <link href="http://jianfree.github.io/blog/categories/diary/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-28T01:32:05+08:00</updated>
+  <updated>2014-04-29T07:44:59+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140428日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/04/29/20140428ri-ji/"/>
+    <updated>2014-04-29T07:39:42+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/04/29/20140428ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气晴星期一</h4>
+
+<h4>正文</h4>
+
+<p>跑步。</p>
+
+<p>晚饭，自己炒的绿豆粉，可惜炒得太干了，但是也还蛮好吃的。</p>
+
+<p>晚上睡得很早，平常应该做的事情，都没做。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140427日记]]></title>
@@ -90,23 +107,6 @@
 <p>看了点英语，学了点SCIP，把mit-scheme环境安装好了。</p>
 
 <p>这周周末要去上海。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20140423日记]]></title>
-    <link href="http://jianfree.github.io/blog/2014/04/24/20140423ri-ji/"/>
-    <updated>2014-04-24T01:34:14+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/04/24/20140423ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气情星期三</h4>
-
-<h4>正文</h4>
-
-<p>今天跑步大概跑了9公里。</p>
-
-<p>晚上安装了Evernote软件。</p>
-
-<p>看了一部电影 <strong>放牛班的春天</strong>。</p>
 ]]></content>
   </entry>
   
