@@ -5,11 +5,23 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>hello world - 每天进步一点点</title>
+  <title>20140430日记 - 每天进步一点点</title>
   <meta name="author" content="Jianfree">
 
   
-  <meta name="description" content="hello world 我的第一篇文章 12 Apr 2014 ">
+  <meta name="description" content="天气晴星期三 正文 跑步 晚上学了很多页ETP BOOK 3的内容。 SICP，只看了牛顿迭代法求平方根，然后自己独立写了一份代码出来。 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+(define (sqrt-iter guess x) (if (is-ok guess x) guess &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +30,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jianfree.github.io/blog/2014/04/12/helloworld/">
+  <link rel="canonical" href="http://jianfree.github.io/blog/2014/05/01/20140430ri-ji/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,7 +92,7 @@
   
   <header>
     
-      <h1 class="entry-title">Hello World</h1>
+      <h1 class="entry-title">20140430日记</h1>
     
     
       <p class="meta">
@@ -96,23 +108,51 @@
   
 
 
-<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-05-01T01:22:33+08:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>hello world</h2>
+<div class="entry-content"><h4>天气晴星期三</h4>
+
+<h4>正文</h4>
+
+<p>跑步</p>
+
+<p>晚上学了很多页ETP BOOK 3的内容。</p>
+
+<p>SICP，只看了牛顿迭代法求平方根，然后自己独立写了一份代码出来。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">sqrt-iter</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>     <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>               <span class="nv">guess</span>
+</span><span class='line'>                    <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span> <span class="nv">x</span><span class="p">)))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span>
+</span><span class='line'>      <span class="p">(</span><span class="nb">&lt; </span><span class="p">(</span><span class="nb">abs </span><span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">* </span><span class="nv">guess</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">x</span><span class="p">))</span> <span class="mf">0.001</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">(</span><span class="nb">/ </span><span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="nb">/ </span><span class="nv">x</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">guess</span><span class="p">)</span> <span class="mi">2</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nb">sqrt </span><span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="mf">1.0</span> <span class="nv">x</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-
-
-<p>我的第一篇文章</p>
-
-
-<p>12 Apr 2014</p>
-
+<p>看了Fenng的 <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODIyMTE0MA==&amp;mid=200308245&amp;idx=1&amp;sn=ba5b9aaa074b650848c01605427f527a#rd">写「用户体验」良好的求职邮件</a> 的微信文章，值得好好参考。</p>
 </div>
 
 
@@ -135,12 +175,12 @@
   
 
 
-<time datetime="2014-04-12T22:49:46+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-05-01T01:22:33+08:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/other/'>other</a>
+    <a class='category' href='/blog/categories/diary/'>diary</a>
   
 </span>
 
@@ -178,8 +218,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/04/30/20140429ri-ji/" title="Previous Post: 20140429日记">&laquo; 20140429日记</a>
       
-        <a class="basic-alignment right" href="/blog/2014/04/13/yong-octopresszai-githubshang-mian-da-jian-bo-ke/" title="Next Post: 用Octopress在github上面搭建博客">用Octopress在github上面搭建博客 &raquo;</a>
       
     </p>
   </footer>

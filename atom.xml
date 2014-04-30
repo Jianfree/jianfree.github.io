@@ -4,7 +4,7 @@
   <title><![CDATA[每天进步一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-04-30T07:09:21+08:00</updated>
+  <updated>2014-05-01T01:39:40+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140430日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/05/01/20140430ri-ji/"/>
+    <updated>2014-05-01T01:22:33+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/05/01/20140430ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气晴星期三</h4>
+
+<h4>正文</h4>
+
+<p>跑步</p>
+
+<p>晚上学了很多页ETP BOOK 3的内容。</p>
+
+<p>SICP，只看了牛顿迭代法求平方根，然后自己独立写了一份代码出来。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">sqrt-iter</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>     <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>               <span class="nv">guess</span>
+</span><span class='line'>                    <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span> <span class="nv">x</span><span class="p">)))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span>
+</span><span class='line'>      <span class="p">(</span><span class="nb">&lt; </span><span class="p">(</span><span class="nb">abs </span><span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">* </span><span class="nv">guess</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">x</span><span class="p">))</span> <span class="mf">0.001</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">(</span><span class="nb">/ </span><span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="nb">/ </span><span class="nv">x</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">guess</span><span class="p">)</span> <span class="mi">2</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nb">sqrt </span><span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="mf">1.0</span> <span class="nv">x</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>看了Fenng的 <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODIyMTE0MA==&amp;mid=200308245&amp;idx=1&amp;sn=ba5b9aaa074b650848c01605427f527a#rd">写「用户体验」良好的求职邮件</a> 的微信文章，值得好好参考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140429日记]]></title>
