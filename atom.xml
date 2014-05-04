@@ -4,7 +4,7 @@
   <title><![CDATA[每天进步一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-05-04T07:49:55+08:00</updated>
+  <updated>2014-05-05T01:23:38+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140504日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/05/05/20140504ri-ji/"/>
+    <updated>2014-05-05T01:16:50+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/05/05/20140504ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气雨星期日</h4>
+
+<h4>正文</h4>
+
+<p>今天下班的时候在地铁站碰到一个人手机没电了，然后借我手机打求职公寓问房间。没怎么细问她的情况，貌似是来苏州找工作。最开始，我还以为我碰到骗子了。</p>
+
+<p>晚上去朋友那里，她从她老家给我带了几个粽子过来。</p>
+
+<p>这几天断断续续的把<strong>村上春树</strong>的《当我跑步时我在谈些什么》看完了一遍。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140503日记]]></title>
@@ -501,24 +518,6 @@
 
 
 <p><strong>搭博客不易，写博客不易，且行且珍惜。</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello world]]></title>
-    <link href="http://jianfree.github.io/blog/2014/04/12/helloworld/"/>
-    <updated>2014-04-12T22:49:46+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/04/12/helloworld</id>
-    <content type="html"><![CDATA[<h2>hello world</h2>
-
-
-
-
-<p>我的第一篇文章</p>
-
-
-<p>12 Apr 2014</p>
-
 ]]></content>
   </entry>
   
