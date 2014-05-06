@@ -4,7 +4,7 @@
   <title><![CDATA[每天进步一点点]]></title>
   <link href="http://jianfree.github.io/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-05-06T06:25:45+08:00</updated>
+  <updated>2014-05-06T23:38:03+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140506日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/05/06/20140506ri-ji/"/>
+    <updated>2014-05-06T23:32:58+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/05/06/20140506ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气晴星期二</h4>
+
+<h4>正文</h4>
+
+<p>下班后和同事以及另外一个朋友去吃了小龙虾。</p>
+
+<p>以后改变下作息时间，每天12点之前早点睡，早上早点起床。今天早上5：30起来的，整天精神状态还算不错。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140505日记]]></title>
@@ -417,23 +432,6 @@
 <p>我自己练洞箫也有很长时间了，感觉始终吹得不太好。难道是我没这个天赋吗？有点想去请个老师教教了。</p>
 
 <p>现在要到2点了。希望明天又是美好的不虚度光阴的一天。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20140413日记]]></title>
-    <link href="http://jianfree.github.io/blog/2014/04/14/20140413ri-ji/"/>
-    <updated>2014-04-14T01:12:47+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/04/14/20140413ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气阴转小雨星期日</h4>
-
-<h4>正文</h4>
-
-<p>今天周末，木有上班，8点起床，一直捣鼓这个博客程序，文章头部<strong>categories</strong>属性，不能填分类这个问题一直弄到中午12点多搞定，网上貌似也没有人碰到相应的问题，最后改了一个<strong>ruby</strong>文件才解决掉，暂时没有发现什么副作用。
-晚上学习了《赖世雄美语音标》p1-30的内容。也在<strong>coursera</strong>上面看了会
-<a href="https://class.coursera.org/musicianship-001">Develping Your Musicianship</a> Lession2的课程，绝大多数的音乐知识都不懂，权当练英语听力。睡觉之前还看了几页有关记忆的东西。</p>
-
-<p>今天把QQ空间关掉了，以后少刷微博，多学习。 不求行动有回报，但求梦想无愧心。</p>
 ]]></content>
   </entry>
   
