@@ -4,7 +4,7 @@
   <title><![CDATA[Category: diary | 每天进步一点点]]></title>
   <link href="http://jianfree.github.io/blog/categories/diary/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-05-10T22:35:00+08:00</updated>
+  <updated>2014-05-11T23:11:27+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[20140511日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/05/11/20140511ri-ji/"/>
+    <updated>2014-05-11T23:04:41+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/05/11/20140511ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气雨星期日</h4>
+
+<h4>正文</h4>
+
+<p>周末，未上班。</p>
+
+<p>全天未做正事。</p>
+
+<p>上午买了SSD，提前买了。</p>
+
+<p>下午和同学去石路看苏州一年一度的扎神仙活动。</p>
+
+<p>已经考虑好了辞职，晚上打电话给爸妈，爸妈说，让我自己考虑，他们会支持我的决定。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[20140510日记]]></title>
     <link href="http://jianfree.github.io/blog/2014/05/10/20140510ri-ji/"/>
     <updated>2014-05-10T22:29:28+08:00</updated>
     <id>http://jianfree.github.io/blog/2014/05/10/20140510ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气雨星期日</h4>
+    <content type="html"><![CDATA[<h4>天气雨星期六</h4>
 
 <h4>正文</h4>
 
@@ -88,21 +109,6 @@
 <p>下班后跑步。</p>
 
 <p>晚上看SICP。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20140506日记]]></title>
-    <link href="http://jianfree.github.io/blog/2014/05/06/20140506ri-ji/"/>
-    <updated>2014-05-06T23:32:58+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/05/06/20140506ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气晴星期二</h4>
-
-<h4>正文</h4>
-
-<p>下班后和同事以及另外一个朋友去吃了小龙虾。</p>
-
-<p>以后改变下作息时间，每天12点之前早点睡，早上早点起床。今天早上5：30起来的，整天精神状态还算不错。</p>
 ]]></content>
   </entry>
   
