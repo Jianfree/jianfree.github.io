@@ -4,7 +4,7 @@
   <title><![CDATA[Category: diary | 每天进步一点点]]></title>
   <link href="http://jianfree.github.io/blog/categories/diary/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-05-11T23:11:27+08:00</updated>
+  <updated>2014-05-12T21:48:55+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[20140512日记]]></title>
+    <link href="http://jianfree.github.io/blog/2014/05/12/20140512ri-ji/"/>
+    <updated>2014-05-12T21:44:43+08:00</updated>
+    <id>http://jianfree.github.io/blog/2014/05/12/20140512ri-ji</id>
+    <content type="html"><![CDATA[<h4>天气雨星期一</h4>
+
+<h4>正文</h4>
+
+<p>下班后，跑步。</p>
+
+<p>跑步要到家的时候，看见一个小摊贩夫妻，为了躲避城管，慌忙的把东西推往街道旁边的小区里。</p>
+
+<p>洗衣机，还没修好，手洗了几件衣服，估计有大半年没有手洗过衣服了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[20140511日记]]></title>
@@ -92,23 +109,6 @@
 <p>晚上下班买了点菜，然后做饭。</p>
 
 <p>晚上未做其他很早就睡觉了，罪过，罪过。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20140507日记]]></title>
-    <link href="http://jianfree.github.io/blog/2014/05/07/20140507ri-ji/"/>
-    <updated>2014-05-07T23:02:41+08:00</updated>
-    <id>http://jianfree.github.io/blog/2014/05/07/20140507ri-ji</id>
-    <content type="html"><![CDATA[<h4>天气晴星期三</h4>
-
-<h4>正文</h4>
-
-<p>早晨6点起床，然后2小时英语。</p>
-
-<p>下班后跑步。</p>
-
-<p>晚上看SICP。</p>
 ]]></content>
   </entry>
   

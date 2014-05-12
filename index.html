@@ -9,7 +9,7 @@
   <meta name="author" content="Jianfree">
 
   
-  <meta name="description" content="天气雨星期日 正文 周末，未上班。 全天未做正事。 上午买了SSD，提前买了。 下午和同学去石路看苏州一年一度的扎神仙活动。 已经考虑好了辞职，晚上打电话给爸妈，爸妈说，让我自己考虑，他们会支持我的决定。
+  <meta name="description" content="天气雨星期一 正文 下班后，跑步。 跑步要到家的时候，看见一个小摊贩夫妻，为了躲避城管，慌忙的把东西推往街道旁边的小区里。 洗衣机，还没修好，手洗了几件衣服，估计有大半年没有手洗过衣服了。
 ">
   
 
@@ -78,6 +78,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/12/20140512ri-ji/">20140512日记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-12T21:44:43+08:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>天气雨星期一</h4>
+
+<h4>正文</h4>
+
+<p>下班后，跑步。</p>
+
+<p>跑步要到家的时候，看见一个小摊贩夫妻，为了躲避城管，慌忙的把东西推往街道旁边的小区里。</p>
+
+<p>洗衣机，还没修好，手洗了几件衣服，估计有大半年没有手洗过衣服了。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -493,79 +537,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/01/20140430ri-ji/">20140430日记</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-01T01:22:33+08:00" pubdate data-updated="true">May 1<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>天气晴星期三</h4>
-
-<h4>正文</h4>
-
-<p>跑步</p>
-
-<p>晚上学了很多页ETP BOOK 3的内容。</p>
-
-<p>SICP，只看了牛顿迭代法求平方根，然后自己独立写了一份代码出来。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-</pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">sqrt-iter</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
-</span><span class='line'>     <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
-</span><span class='line'>               <span class="nv">guess</span>
-</span><span class='line'>                    <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span> <span class="nv">x</span><span class="p">)))</span>
-</span><span class='line'>
-</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">is-ok</span> <span class="nv">guess</span> <span class="nv">x</span> <span class="p">)</span>
-</span><span class='line'>      <span class="p">(</span><span class="nb">&lt; </span><span class="p">(</span><span class="nb">abs </span><span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">* </span><span class="nv">guess</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">x</span><span class="p">))</span> <span class="mf">0.001</span><span class="p">))</span>
-</span><span class='line'>
-</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">guess-again</span> <span class="nv">guess</span> <span class="nv">x</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">(</span><span class="nb">/ </span><span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="nb">/ </span><span class="nv">x</span> <span class="nv">guess</span><span class="p">)</span> <span class="nv">guess</span><span class="p">)</span> <span class="mi">2</span><span class="p">))</span>
-</span><span class='line'>
-</span><span class='line'><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nb">sqrt </span><span class="nv">x</span><span class="p">)</span> <span class="p">(</span><span class="nf">sqrt-iter</span> <span class="mf">1.0</span> <span class="nv">x</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>看了Fenng的 <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODIyMTE0MA==&amp;mid=200308245&amp;idx=1&amp;sn=ba5b9aaa074b650848c01605427f527a#rd">写「用户体验」良好的求职邮件</a> 的微信文章，值得好好参考。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -580,7 +551,7 @@
   <h1>Categories</h1>
   <ul id="categories">
     <li class='category'><a href='/blog/categories/octopress/'>Octopress (1)</a></li>
-<li class='category'><a href='/blog/categories/diary/'>diary (26)</a></li>
+<li class='category'><a href='/blog/categories/diary/'>diary (27)</a></li>
 <li class='category'><a href='/blog/categories/other/'>other (1)</a></li>
 
   </ul>
@@ -588,6 +559,10 @@
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/05/12/20140512ri-ji/">20140512日记</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/05/11/20140511ri-ji/">20140511日记</a>
@@ -603,10 +578,6 @@
     
       <li class="post">
         <a href="/blog/2014/05/09/20140508ri-ji/">20140508日记</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/05/07/20140507ri-ji/">20140507日记</a>
       </li>
     
   </ul>
