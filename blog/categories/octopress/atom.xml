@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | 每天进步一点点]]></title>
   <link href="http://jianfree.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jianfree.github.io/"/>
-  <updated>2014-05-15T22:05:01+08:00</updated>
+  <updated>2014-10-07T22:49:42+08:00</updated>
   <id>http://jianfree.github.io/</id>
   <author>
     <name><![CDATA[Jianfree]]></name>
@@ -119,8 +119,10 @@
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
+<span class='line-number'>7</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span>&amp;lsquo;title&amp;rsquo;<span class="o">]</span>
 </span><span class='line'>rake generate
+</span><span class='line'>rake preview
 </span><span class='line'>rake deploy
 </span><span class='line'>git add .
 </span><span class='line'>git commit -m &amp;lsquo;you messsage&amp;rsquo;
